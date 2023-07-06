@@ -4,6 +4,9 @@ os: linux
 files:
   - source: /dbtest.jsp
     destination: /root/tomcat/webapps/ROOT
+  - source: /test.jsp
+    destination: /root/tomcat/webapps/ROOT
+    
 
 file_exists_behavior: OVERWRITE    
 
