@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 
 files:
-  - source: /dbtest.jsp
+  - source: /test.jsp
     destination: /root/tomcat/webapps/ROOT
 
 file_exists_behavior: OVERWRITE    
